@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toyota Trade-In Form</title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="gname"><strong>Government Name:</strong></label>
+        <input type="text" name="gname" id="gname" />
+      </div>
+      <div>
+        <label for="sbrq"><strong>Sobriquet:</strong></label>
+        <input type="text" name="sbrq" id="" />
+      </div>
+      <div>
+        <label for="email"><strong>E-mail Address:</strong></label>
+        <input type="email" name="email" id="" />
+      </div>
+      <div>
+        <label for="pnum"><strong>Phone Number:</strong></label>
+        <input type="number" name="pnum" id="" />
+      </div>
+      <div>
+        <label for="car"><strong>Choice Model:</strong></label>
+        <select name="car" id="car">
+          <option value="camry">Camry</option>
+          <option value="yaris">Yaris</option>
+          <option value="corolla">Corolla</option>
+          <option value="supra">Supra</option>
+          <option value="venza">Venza</option>
+          <option value="sienna">Sienna</option>
+          <option value="4runner">4runner</option>
+          <option value="highlander">Highlander</option>
+          <option value="landcruiser">Landcruiser</option>
+          <option value="sequoia">Sequoia</option>
+          <option value="fortuner">Fortuner</option>
+          <option value="hilux">Hilux</option>
+          <option value="tundra">Tundra</option>
+        </select>
+      </div>
+      <div>
+        <p>
+          <strong>Tradable Options</strong> <br />
+          <input type="checkbox" name="tcar" id="tcar" />
+          <label for="tcar">I have a Toyota model</label> <br />
+          <input type="checkbox" name="dcar" id="dcar" />
+          <label for="dcar">I have a different vehicle</label> <br />
+          <input type="checkbox" name="boat" id="boat" />
+          <label for="boat">I have boat</label> <br />
+          <input type="checkbox" name="airc" id="airc" />
+          <label for="airc">I have an aircraft</label> <br />
+          <input type="checkbox" name="house" id="house" />
+          <label for="house">I have a house</label> <br />
+        </p>
+      </div>
+      <div>
+        <input type="text" placeholder="Other Valuable Possession" />
+      </div>
+      <div>
+        <p>
+          If need be, are you open to supplementing with monetary payment?
+          <br />
+          <input type="radio" name="yes" id="" />
+          <label for="yes">Certainly</label> <br />
+          <input type="radio" name="yes" id="" />
+          <label for="unsure">Maybe</label> <br />
+          <input type="radio" name="yes" id="" />
+          <label for="no">Absolutely Not</label> <br />
+          <input type="radio" name="yes" id="" />
+          <label for="vex">You dey cray?</label> <br />
+        </p>
+      </div>
+      <div>
+        <p>
+          <strong>Upload Required Documents</strong> <br>
+          <label for="id">Certified Passport or ID</label>
+          <input type="file" name="id" id="" /> <br />
+          <label for="license">Driver's License</label>
+          <input type="file" name="license" id="" /> <br />
+          <label for="proof">Bank Statement</label>
+          <input type="file" name="proof" id="" /> <br />
+          <label for="papers">Vehicle Proof of Ownership</label>
+          <input type="file" name="papers" id="" />
+        </p>
+      </div>
+      <div>
+        <textarea name="extra" id="" cols="60" rows="5">Detailed reason for Trade-In</textarea>
+      </div>
+      <div>
+        <p></p>
+        <input type="reset" value="Clear Form" />
+      </div>
+      <div>
+        <p></p>
+        <input type="submit" value="Submit Form" />
+      </div>
+    </form>
+  </body>
+</html>
